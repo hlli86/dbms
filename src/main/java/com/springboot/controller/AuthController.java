@@ -34,6 +34,8 @@ public class AuthController {
             try {
                 subject.login(token);
                 log.info("认证成功");
+                subject.getSession().setTimeout(60000);
+                log.info("会话超时时间：{}",subject.getSession().getTimeout()) ;
                 //System.out.println("认证成功");
                 return new ResponseMessage(ErrorCode.SUCCESS,"认证成功");
             } catch (UnknownAccountException e) {

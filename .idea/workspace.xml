@@ -156,6 +156,7 @@
           <entry key="HTML" value="18" />
           <entry key="JAVA" value="647" />
           <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="30" />
           <entry key="SQL" value="6" />
           <entry key="XML" value="352" />
         </counts>
@@ -188,8 +189,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/config/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+            <state relative-caret-position="52">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -290,7 +291,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -517,12 +518,12 @@
       <workItem from="1555229009908" duration="13150000" />
       <workItem from="1555334574816" duration="765000" />
       <workItem from="1555337813996" duration="137000" />
-      <workItem from="1555402027860" duration="8845000" />
+      <workItem from="1555402027860" duration="9159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198464000" />
+    <option name="totallyTimeSpent" value="198778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -568,6 +569,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加shiro会话过期时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加shiro会话过期时间" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/CachingRealm.class">
@@ -921,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+        <state relative-caret-position="52">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
